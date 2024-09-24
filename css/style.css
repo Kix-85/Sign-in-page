@@ -1,0 +1,76 @@
+body{
+    background-image: url(/img/web.png);
+}
+.welcome{
+    position: absolute;
+    margin-top: 30px;
+    height:100px;
+    width:400px;
+}
+.welcome h3{
+    text-align: center;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color: #00ad6a;
+}
+.welcome h3:hover{
+    scale:1.2;
+}
+.welcome p{
+    text-align: center;
+}
+#container{
+    display: flex;
+    background-color: #fffafa;
+    border: transparent;
+    width: 400px;
+    height: 500px;
+    box-shadow: 2px 2px 10px;
+    margin:auto;
+    margin-top: 100px;
+    justify-content: center;
+    border-radius: 20px;
+}
+form{
+    position: absolute;
+    margin-top: 150px;
+    max-width:fit-content;
+    max-height: fit-content;
+}
+form input{
+    border-radius: 2px;
+    border-color: rgba(239, 239, 239, 0.74);
+}
+i{
+    color: #00ad6a;
+}
+.btn{
+    width: 185px;
+    background-color:#00ad6a;
+    color: #fffafa;
+    box-shadow: 1px 1px 10px grey;
+}
+.btn:hover{
+    scale: 1.2;
+    color: #85ddec;
+}
+#signUp{
+    position:absolute;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin-top: 390px;
+}
+#signUp p{
+    color: #4b4b4b97;
+}
+#signUp a{
+    color:#00ad6a;
+    text-decoration: none;
+}
+#signUp a:hover{
+    color:#85ddec;
+    scale: 1.5;
+}
+
+/*#00ad6a*/
